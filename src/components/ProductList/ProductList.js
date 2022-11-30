@@ -1,4 +1,5 @@
 import Product from "../Product/Product";
+import { memo } from "react";
 
 import "./ProductList.css";
 
@@ -12,4 +13,4 @@ const ProductList = ({ products, onDelete }) => {
   );
 };
 
-export default ProductList;
+export default memo(ProductList);

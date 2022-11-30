@@ -14,10 +14,14 @@
 
 .btn {
   padding: 0.3rem 1rem;
-  background: #9e9e9e;
+  background: red;
   border: none;
   border-radius: 0.3rem;
   font: inherit;
   font-size: 0.9rem;
-  color: #212121;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.btn:hover {
+  filter: brightness(0.9);
 }

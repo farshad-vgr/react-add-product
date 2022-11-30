@@ -5,19 +5,32 @@
 }
 
 .form-control input {
-  padding: 0.3rem;
+  padding: 0.5rem 1rem;
   background: transparent;
   border: none;
   border-bottom: 2px solid #e0e0e0;
   font: inherit;
+  font-size: 1.5rem;
   color: #e0e0e0;
   outline: none;
+  cursor: text;
 }
 
 .form-btn {
   margin: 1rem;
-  background: transparent;
+  padding: 0.5rem 1rem;
+  background: deepskyblue;
   border: none;
+  border-radius: 0.5rem;
   font: inherit;
+  font-size: 1rem;
   color: #e0e0e0;
+  cursor: pointer;
+}
+.form-btn:hover {
+  filter: brightness(0.9);
+}
+
+.form-btn sup {
+  cursor: pointer;
 }
